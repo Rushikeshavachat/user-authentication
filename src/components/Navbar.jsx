@@ -48,7 +48,7 @@ const Navbar = () => {
             </div>
             <nav className="flex items-center justify-between flex-wrap bg-blue-600 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <Link to="/" className="font-semibold text-xl tracking-tight"><img src="/assets/logo.jpeg" alt="" className='h-10 w-10 flex items-center rounded-lg object-cover' /></Link>
+        <Link to="/" className="font-semibold text-xl tracking-tight"><img src="./public/vite.svg" alt="" className='h-10 w-10 flex items-center rounded-lg object-cover' /></Link>
       </div>
       <div className="flex items-center">
         <button onClick={openLoginModal} className="bg-transparent text-white p-2 rounded-lg hover:bg-white hover:text-blue-600 mr-4">
