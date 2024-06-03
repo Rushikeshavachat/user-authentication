@@ -5,6 +5,7 @@ import { Search } from 'lucide-react';
 import { MdPerson } from 'react-icons/md';
 import LoginModal from "./LoginModal"
 import RegisterModal from './RegisterModal';
+import { AiOutlineUser } from 'react-icons/ai';
 const Navbar = () => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
   const [isRegisterModalOpen, setIsRegisterModalOpen] = useState(false);
@@ -47,7 +48,7 @@ const Navbar = () => {
             </div>
             <nav className="flex items-center justify-between flex-wrap bg-blue-600 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <Link to="/" className="font-semibold text-xl tracking-tight"><img src="./public/logo.jpeg" alt="" className='flex w-10 h-10 rounded-lg cursor-pointer object-cover'/></Link>
+        <Link to="/" className="font-semibold text-xl tracking-tight"><AiOutlineUser className='text-2xl flex items-center gap-4'/></Link>
       </div>
       <div className="flex items-center">
         <button onClick={openLoginModal} className="bg-transparent text-white p-2 rounded-lg hover:bg-white hover:text-blue-600 mr-4">
